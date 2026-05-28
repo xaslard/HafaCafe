@@ -1,0 +1,2306 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="HAFA Coffee & House - Titik temu antara Aku, Kamu, Dia dan Mereka. Cafe premium di Bogor dengan suasana hangat, menu spesial, dan ruang untuk berkarya.">
+<meta name="keywords" content="Hafa Coffee, cafe Bogor, kopi Bogor, restoran Bogor, coworking space Bogor, VIP room karaoke Bogor">
+<meta name="author" content="HAFA Coffee & House">
+<meta name="robots" content="index, follow">
+<!-- Open Graph -->
+<meta property="og:title" content="HAFA Coffee & House - Titik temu antara Aku, Kamu, Dia dan Mereka">
+<meta property="og:description" content="Some places serve coffee. #HAFA creates a feeling ️ Cafe premium di Bogor dengan suasana vintage-modern.">
+<meta property="og:image" content="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/1e92f3f47-932e-4cc1-8d5b-b0b33e38ee08.png">
+<meta property="og:url" content="https://hafacoffeehouse.com">
+<meta property="og:type" content="restaurant">
+<meta property="og:locale" content="id_ID">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="HAFA Coffee & House">
+<meta name="twitter:description" content="Some places serve coffee. #HAFA creates a feeling ☕️">
+
+<title>HAFA Coffee & House — Titik temu antara Aku, Kamu, Dia dan Mereka | Cafe Premium Bogor</title>
+
+<!-- Fonts -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<link href="https://cdn.jsdelivr.net/npm/fontsource-playfair-display@4.0.0/latin.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/fontsource-cormorant-garamond@4.0.0/latin.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/fontsource-inter@4.0.0/latin.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/fontsource-poppins@4.0.0/latin.css" rel="stylesheet">
+
+<!-- Structured Data -->
+<script type="application/ld+json">
+        {
+        "@context": "https://schema.org",
+        "@type": "CafeOrCoffeeShop",
+        "name": "HAFA Coffee & House",
+        "image": "https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/1e92f3f47-932e-4cc1-8d5b-b0b33e38ee08.png",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Jl. Puter No. 2, Tanah Sareal, Kec. Tanah Sareal",
+            "addressLocality": "Kota Bogor",
+            "addressRegion": "Jawa Barat",
+            "postalCode": "16161",
+            "addressCountry": "ID"
+        },
+        "telephone": "+6285211614462",
+        "openingHours": "Mo-Su 07:00-22:00",
+        "priceRange": "Rp 28.000 - Rp 80.000",
+        "servesCuisine": ["Indonesian", "Coffee", "Fusion"],
+        "url": "https://hafacoffeehouse.com"
+    }
+</script>
+
+<style>
+    /* ============================================
+       CSS CUSTOM PROPERTIES (DESIGN SYSTEM)
+       ============================================ */
+    :root {
+        --color-coffee: #4A3B32;
+        --color-cream: #F5F1E8;
+        --color-beige: #E8DFD5;
+        --color-olive: #6B705C;
+        --color-terracotta: #C67B5C;
+        --color-dark: #2C2520;
+        --color-white: #FFFFFF;
+        --color-overlay: rgba(44, 37, 32, 0.55);
+
+        --font-heading: 'Playfair Display', 'Cormorant Garamond', Georgia, serif;
+        --font-body: 'Inter', 'Poppins', -apple-system, sans-serif;
+
+        --radius-sm: 4px;
+        --radius-md: 8px;
+        --radius-lg: 16px;
+        --radius-xl: 24px;
+
+        --shadow-sm: 0 2px 8px rgba(44, 37, 32, 0.08);
+        --shadow-md: 0 4px 16px rgba(44, 37, 32, 0.12);
+        --shadow-lg: 0 8px 32px rgba(44, 37, 32, 0.16);
+        --shadow-xl: 0 16px 48px rgba(44, 37, 32, 0.20);
+
+        --transition-fast: 0.2s ease;
+        --transition-base: 0.3s ease;
+        --transition-slow: 0.5s ease;
+
+        --nav-height: 72px;
+        --container-max: 1200px;
+        --section-padding: 100px;
+    }
+
+    /* ============================================
+       RESET & BASE
+       ============================================ */
+    *, *::before, *::after {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html {
+        scroll-behavior: smooth;
+        font-size: 16px;
+        -webkit-text-size-adjust: 100%;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+        html { scroll-behavior: auto; }
+        *, *::before, *::after {
+            animation-duration: 0.01ms !important;
+            animation-iteration-count: 1 !important;
+            transition-duration: 0.01ms !important;
+        }
+    }
+
+    body {
+        font-family: var(--font-body);
+        color: var(--color-dark);
+        background-color: var(--color-cream);
+        line-height: 1.6;
+        letter-spacing: 0.01em;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+        transition: color var(--transition-fast);
+    }
+
+    ul, ol { list-style: none; }
+
+    button {
+        font-family: inherit;
+        cursor: pointer;
+        border: none;
+        background: none;
+    }
+
+    /* ============================================
+       UTILITY CLASSES
+       ============================================ */
+    .container {
+        width: 100%;
+        max-width: var(--container-max);
+        margin: 0 auto;
+        padding: 0 24px;
+    }
+
+    .sr-only {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        padding: 0;
+        margin: -1px;
+        overflow: hidden;
+        clip: rect(0,0,0,0);
+        white-space: nowrap;
+        border: 0;
+    }
+
+    .section-label {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        font-family: var(--font-body);
+        font-size: 0.8rem;
+        font-weight: 600;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        color: var(--color-terracotta);
+        margin-bottom: 16px;
+    }
+
+    .section-label::before {
+        content: '';
+        display: block;
+        width: 32px;
+        height: 2px;
+        background: var(--color-terracotta);
+    }
+
+    .section-title {
+        font-family: var(--font-heading);
+        font-size: clamp(2rem, 4vw, 3rem);
+        font-weight: 700;
+        color: var(--color-coffee);
+        line-height: 1.2;
+        margin-bottom: 20px;
+    }
+
+    .section-subtitle {
+        font-size: 1.1rem;
+        color: var(--color-olive);
+        max-width: 600px;
+        line-height: 1.7;
+    }
+
+    /* ============================================
+       BUTTONS
+       ============================================ */
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 14px 32px;
+        font-family: var(--font-body);
+        font-size: 0.95rem;
+        font-weight: 600;
+        border-radius: var(--radius-md);
+        transition: all var(--transition-base);
+        position: relative;
+        overflow: hidden;
+        white-space: nowrap;
+    }
+
+    .btn:focus-visible {
+        outline: 3px solid var(--color-terracotta);
+        outline-offset: 2px;
+    }
+
+    .btn-primary {
+        background: var(--color-terracotta);
+        color: var(--color-white);
+        box-shadow: 0 4px 16px rgba(198, 123, 92, 0.35);
+    }
+
+    .btn-primary:hover {
+        background: #b56a4e;
+        transform: translateY(-2px) scale(1.02);
+        box-shadow: 0 8px 24px rgba(198, 123, 92, 0.45);
+    }
+
+    .btn-primary:active {
+        transform: translateY(0) scale(0.98);
+    }
+
+    .btn-secondary {
+        background: transparent;
+        color: var(--color-coffee);
+        border: 2px solid var(--color-coffee);
+    }
+
+    .btn-secondary:hover {
+        background: var(--color-coffee);
+        color: var(--color-cream);
+        transform: translateY(-2px) scale(1.02);
+    }
+
+    .btn-ghost {
+        background: rgba(255,255,255,0.15);
+        color: var(--color-white);
+        border: 1px solid rgba(255,255,255,0.3);
+        backdrop-filter: blur(8px);
+    }
+
+    .btn-ghost:hover {
+        background: rgba(255,255,255,0.25);
+        transform: translateY(-2px);
+    }
+
+    /* ============================================
+       NAVIGATION
+       ============================================ */
+    .nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        height: var(--nav-height);
+        transition: all var(--transition-base);
+        background: transparent;
+    }
+
+    .nav.scrolled {
+        background: rgba(245, 241, 232, 0.95);
+        backdrop-filter: blur(12px);
+        -webkit-backdrop-filter: blur(12px);
+        box-shadow: var(--shadow-sm);
+    }
+
+    .nav__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .nav__logo {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        z-index: 1001;
+    }
+
+    .nav__logo-icon {
+        width: 40px;
+        height: 40px;
+        background: var(--color-terracotta);
+        border-radius: var(--radius-md);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-family: var(--font-heading);
+        font-size: 1.3rem;
+        font-weight: 700;
+    }
+
+    .nav__logo-text {
+        font-family: var(--font-heading);
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--color-white);
+        transition: color var(--transition-base);
+    }
+
+    .nav.scrolled .nav__logo-text {
+        color: var(--color-coffee);
+    }
+
+    .nav__links {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+    }
+
+    .nav__link {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: rgba(255,255,255,0.9);
+        border-radius: var(--radius-sm);
+        transition: all var(--transition-fast);
+        position: relative;
+    }
+
+    .nav.scrolled .nav__link {
+        color: var(--color-coffee);
+    }
+
+    .nav__link:hover,
+    .nav__link.active {
+        color: var(--color-white);
+        background: rgba(255,255,255,0.15);
+    }
+
+    .nav.scrolled .nav__link:hover,
+    .nav.scrolled .nav__link.active {
+        color: var(--color-terracotta);
+        background: rgba(198, 123, 92, 0.1);
+    }
+
+    .nav__link.active::after {
+        content: '';
+        position: absolute;
+        bottom: 2px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 20px;
+        height: 2px;
+        background: var(--color-terracotta);
+        border-radius: 1px;
+    }
+
+    .nav__cta {
+        padding: 10px 24px;
+        margin-left: 8px;
+    }
+
+    /* Hamburger */
+    .hamburger {
+        display: none;
+        flex-direction: column;
+        gap: 5px;
+        padding: 8px;
+        z-index: 1001;
+        cursor: pointer;
+    }
+
+    .hamburger span {
+        display: block;
+        width: 24px;
+        height: 2px;
+        background: var(--color-white);
+        border-radius: 2px;
+        transition: all var(--transition-base);
+    }
+
+    .nav.scrolled .hamburger span {
+        background: var(--color-coffee);
+    }
+
+    .hamburger.open span:nth-child(1) {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .hamburger.open span:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.open span:nth-child(3) {
+        transform: rotate(-45deg) translate(5px, -5px);
+    }
+
+    /* Mobile Menu */
+    .mobile-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        width: min(320px, 85vw);
+        height: 100vh;
+        background: var(--color-cream);
+        z-index: 1000;
+        padding: 100px 32px 40px;
+        transition: right var(--transition-slow);
+        box-shadow: var(--shadow-xl);
+        overflow-y: auto;
+    }
+
+    .mobile-menu.open {
+        right: 0;
+    }
+
+    .mobile-menu__overlay {
+        display: none;
+        position: fixed;
+        inset: 0;
+        background: rgba(44, 37, 32, 0.5);
+        z-index: 999;
+        opacity: 0;
+        transition: opacity var(--transition-base);
+    }
+
+    .mobile-menu__overlay.open {
+        opacity: 1;
+    }
+
+    .mobile-menu__link {
+        display: block;
+        padding: 16px 0;
+        font-size: 1.1rem;
+        font-weight: 500;
+        color: var(--color-coffee);
+        border-bottom: 1px solid var(--color-beige);
+        transition: color var(--transition-fast);
+    }
+
+    .mobile-menu__link:hover {
+        color: var(--color-terracotta);
+    }
+
+    .mobile-menu__cta {
+        margin-top: 32px;
+        width: 100%;
+    }
+
+    /* ============================================
+       HERO SECTION
+       ============================================ */
+    .hero {
+        position: relative;
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .hero__bg {
+        position: absolute;
+        inset: 0;
+        z-index: 0;
+    }
+
+    .hero__bg img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .hero__bg::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+            135deg,
+            rgba(44, 37, 32, 0.7) 0%,
+            rgba(44, 37, 32, 0.4) 50%,
+            rgba(44, 37, 32, 0.6) 100%
+        );
+    }
+
+    .hero__content {
+        position: relative;
+        z-index: 1;
+        text-align: center;
+        max-width: 800px;
+        padding: 0 24px;
+    }
+
+    .hero__badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        padding: 8px 20px;
+        background: rgba(255,255,255,0.12);
+        border: 1px solid rgba(255,255,255,0.2);
+        border-radius: 50px;
+        color: var(--color-cream);
+        font-size: 0.85rem;
+        font-weight: 500;
+        letter-spacing: 0.05em;
+        margin-bottom: 28px;
+        backdrop-filter: blur(4px);
+    }
+
+    .hero__title {
+        font-family: var(--font-heading);
+        font-size: clamp(2.2rem, 6vw, 4.2rem);
+        font-weight: 700;
+        color: var(--color-white);
+        line-height: 1.15;
+        margin-bottom: 20px;
+        text-shadow: 0 2px 20px rgba(0,0,0,0.2);
+    }
+
+    .hero__title em {
+        font-style: normal;
+        color: var(--color-terracotta);
+    }
+
+    .hero__subtitle {
+        font-size: clamp(1rem, 2vw, 1.25rem);
+        color: rgba(255,255,255,0.85);
+        margin-bottom: 40px;
+        font-weight: 400;
+        line-height: 1.6;
+    }
+
+    .hero__ctas {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 16px;
+        justify-content: center;
+    }
+
+    .hero__scroll {
+        position: absolute;
+        bottom: 32px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        color: rgba(255,255,255,0.6);
+        font-size: 0.75rem;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        animation: heroFloat 3s ease-in-out infinite;
+    }
+
+    .hero__scroll-line {
+        width: 1px;
+        height: 40px;
+        background: linear-gradient(to bottom, rgba(255,255,255,0.6), transparent);
+    }
+
+    @keyframes heroFloat {
+        0%, 100% { transform: translateX(-50%) translateY(0); }
+        50% { transform: translateX(-50%) translateY(8px); }
+    }
+
+    /* ============================================
+       ABOUT SECTION
+       ============================================ */
+    .about {
+        padding: var(--section-padding) 0;
+        background: var(--color-cream);
+    }
+
+    .about__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 64px;
+        align-items: center;
+    }
+
+    .about__text p {
+        font-size: 1.05rem;
+        color: var(--color-dark);
+        line-height: 1.8;
+        margin-bottom: 24px;
+    }
+
+    .about__text p:first-of-type::first-letter {
+        font-family: var(--font-heading);
+        font-size: 3.5rem;
+        float: left;
+        line-height: 1;
+        margin-right: 8px;
+        margin-top: 4px;
+        color: var(--color-terracotta);
+        font-weight: 700;
+    }
+
+    .about__image {
+        position: relative;
+        border-radius: var(--radius-lg);
+        overflow: hidden;
+        box-shadow: var(--shadow-lg);
+    }
+
+    .about__image img {
+        width: 100%;
+        height: 500px;
+        object-fit: cover;
+        transition: transform var(--transition-slow);
+    }
+
+    .about__image:hover img {
+        transform: scale(1.03);
+    }
+
+    .about__image-badge {
+        position: absolute;
+        bottom: 24px;
+        left: 24px;
+        background: var(--color-white);
+        padding: 16px 24px;
+        border-radius: var(--radius-md);
+        box-shadow: var(--shadow-md);
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .about__image-badge-icon {
+        width: 48px;
+        height: 48px;
+        background: var(--color-terracotta);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.3rem;
+    }
+
+    .about__image-badge-text {
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: var(--color-coffee);
+    }
+
+    .about__image-badge-sub {
+        font-size: 0.75rem;
+        color: var(--color-olive);
+        font-weight: 400;
+    }
+
+    /* ============================================
+       FACILITIES SECTION
+       ============================================ */
+    .facilities {
+        padding: var(--section-padding) 0;
+        background: var(--color-beige);
+    }
+
+    .facilities__header {
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .facilities__header .section-subtitle {
+        margin: 0 auto;
+    }
+
+    .facilities__grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 24px;
+    }
+
+    .facility-card {
+        background: var(--color-white);
+        border-radius: var(--radius-lg);
+        padding: 36px 28px;
+        transition: all var(--transition-base);
+        box-shadow: var(--shadow-sm);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .facility-card::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: var(--color-terracotta);
+        transform: scaleX(0);
+        transition: transform var(--transition-base);
+    }
+
+    .facility-card:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-lg);
+    }
+
+    .facility-card:hover::before {
+        transform: scaleX(1);
+    }
+
+    .facility-card__icon {
+        width: 56px;
+        height: 56px;
+        background: linear-gradient(135deg, var(--color-beige), var(--color-cream));
+        border-radius: var(--radius-md);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+
+    .facility-card__title {
+        font-family: var(--font-heading);
+        font-size: 1.2rem;
+        font-weight: 700;
+        color: var(--color-coffee);
+        margin-bottom: 10px;
+    }
+
+    .facility-card__desc {
+        font-size: 0.9rem;
+        color: var(--color-olive);
+        line-height: 1.6;
+    }
+
+    .facility-card__tag {
+        display: inline-block;
+        margin-top: 12px;
+        padding: 4px 12px;
+        background: rgba(198, 123, 92, 0.1);
+        color: var(--color-terracotta);
+        font-size: 0.75rem;
+        font-weight: 600;
+        border-radius: 50px;
+    }
+
+    .facilities__cta {
+        text-align: center;
+        margin-top: 48px;
+    }
+
+    /* ============================================
+       MENU SECTION
+       ============================================ */
+    .menu {
+        padding: var(--section-padding) 0;
+        background: var(--color-cream);
+    }
+
+    .menu__header {
+        text-align: center;
+        margin-bottom: 48px;
+    }
+
+    .menu__header .section-subtitle {
+        margin: 0 auto;
+    }
+
+    .menu__tabs {
+        display: flex;
+        justify-content: center;
+        gap: 8px;
+        margin-bottom: 48px;
+        flex-wrap: wrap;
+    }
+
+    .menu__tab {
+        padding: 12px 28px;
+        font-size: 0.9rem;
+        font-weight: 600;
+        color: var(--color-olive);
+        background: var(--color-beige);
+        border-radius: 50px;
+        transition: all var(--transition-base);
+        cursor: pointer;
+    }
+
+    .menu__tab:hover {
+        color: var(--color-coffee);
+        background: var(--color-cream);
+    }
+
+    .menu__tab.active {
+        background: var(--color-coffee);
+        color: var(--color-white);
+        box-shadow: var(--shadow-md);
+    }
+
+    .menu__tab:focus-visible {
+        outline: 3px solid var(--color-terracotta);
+        outline-offset: 2px;
+    }
+
+    .menu__panel {
+        display: none;
+        animation: menuFadeIn 0.4s ease;
+    }
+
+    .menu__panel.active {
+        display: block;
+    }
+
+    @keyframes menuFadeIn {
+        from { opacity: 0; transform: translateY(12px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .menu__grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        gap: 20px;
+    }
+
+    .menu-item {
+        background: var(--color-white);
+        border-radius: var(--radius-md);
+        padding: 24px;
+        box-shadow: var(--shadow-sm);
+        transition: all var(--transition-base);
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+    }
+
+    .menu-item:hover {
+        transform: translateY(-2px) scale(1.02);
+        box-shadow: var(--shadow-md);
+    }
+
+    .menu-item__img {
+        width: 72px;
+        height: 72px;
+        border-radius: var(--radius-sm);
+        object-fit: cover;
+        flex-shrink: 0;
+    }
+
+    .menu-item__info {
+        flex: 1;
+    }
+
+    .menu-item__name {
+        font-family: var(--font-heading);
+        font-size: 1.05rem;
+        font-weight: 700;
+        color: var(--color-coffee);
+        margin-bottom: 4px;
+    }
+
+    .menu-item__desc {
+        font-size: 0.82rem;
+        color: var(--color-olive);
+        line-height: 1.5;
+        margin-bottom: 8px;
+    }
+
+    .menu-item__price {
+        font-weight: 700;
+        color: var(--color-terracotta);
+        font-size: 1rem;
+    }
+
+    .menu__disclaimer {
+        text-align: center;
+        margin-top: 36px;
+        font-size: 0.82rem;
+        color: var(--color-olive);
+        font-style: italic;
+        padding: 16px;
+        background: var(--color-beige);
+        border-radius: var(--radius-md);
+    }
+
+    /* ============================================
+       EVENTS SECTION
+       ============================================ */
+    .events {
+        padding: var(--section-padding) 0;
+        background: var(--color-coffee);
+        color: var(--color-cream);
+        position: relative;
+        overflow: hidden;
+    }
+
+    .events::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        right: -20%;
+        width: 600px;
+        height: 600px;
+        background: radial-gradient(circle, rgba(198,123,92,0.15) 0%, transparent 70%);
+        border-radius: 50%;
+    }
+
+    .events__header {
+        text-align: center;
+        margin-bottom: 60px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .events__header .section-label {
+        color: var(--color-terracotta);
+    }
+
+    .events__header .section-label::before {
+        background: var(--color-terracotta);
+    }
+
+    .events__header .section-title {
+        color: var(--color-cream);
+    }
+
+    .events__header .section-subtitle {
+        color: rgba(245, 241, 232, 0.7);
+        margin: 0 auto;
+    }
+
+    .events__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 24px;
+        position: relative;
+        z-index: 1;
+    }
+
+    .event-card {
+        background: rgba(255,255,255,0.06);
+        border: 1px solid rgba(255,255,255,0.1);
+        border-radius: var(--radius-lg);
+        padding: 32px;
+        transition: all var(--transition-base);
+        backdrop-filter: blur(4px);
+    }
+
+    .event-card:hover {
+        background: rgba(255,255,255,0.1);
+        transform: translateY(-4px);
+        box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    }
+
+    .event-card__icon {
+        font-size: 2rem;
+        margin-bottom: 16px;
+    }
+
+    .event-card__title {
+        font-family: var(--font-heading);
+        font-size: 1.25rem;
+        font-weight: 700;
+        color: var(--color-cream);
+        margin-bottom: 8px;
+    }
+
+    .event-card__desc {
+        font-size: 0.9rem;
+        color: rgba(245, 241, 232, 0.7);
+        line-height: 1.6;
+    }
+
+    .event-card__tag {
+        display: inline-block;
+        margin-top: 12px;
+        padding: 4px 14px;
+        background: rgba(198, 123, 92, 0.2);
+        color: var(--color-terracotta);
+        font-size: 0.75rem;
+        font-weight: 600;
+        border-radius: 50px;
+    }
+
+    /* ============================================
+       GALLERY SECTION
+       ============================================ */
+    .gallery {
+        padding: var(--section-padding) 0;
+        background: var(--color-beige);
+    }
+
+    .gallery__header {
+        text-align: center;
+        margin-bottom: 48px;
+    }
+
+    .gallery__header .section-subtitle {
+        margin: 0 auto;
+    }
+
+    .gallery__grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 240px);
+        gap: 16px;
+    }
+
+    .gallery__item {
+        border-radius: var(--radius-md);
+        overflow: hidden;
+        position: relative;
+        cursor: pointer;
+    }
+
+    .gallery__item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        transition: transform var(--transition-slow);
+    }
+
+    .gallery__item:hover img {
+        transform: scale(1.08);
+    }
+
+    .gallery__item::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(to top, rgba(44,37,32,0.4), transparent);
+        opacity: 0;
+        transition: opacity var(--transition-base);
+    }
+
+    .gallery__item:hover::after {
+        opacity: 1;
+    }
+
+    .gallery__item:nth-child(1) {
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+
+    .gallery__item:nth-child(5) {
+        grid-column: span 2;
+    }
+
+    /* ============================================
+       LOCATION SECTION
+       ============================================ */
+    .location {
+        padding: var(--section-padding) 0;
+        background: var(--color-cream);
+    }
+
+    .location__grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 48px;
+        align-items: start;
+    }
+
+    .location__info {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+    }
+
+    .location__block {
+        display: flex;
+        gap: 16px;
+        align-items: flex-start;
+    }
+
+    .location__block-icon {
+        width: 48px;
+        height: 48px;
+        background: var(--color-beige);
+        border-radius: var(--radius-md);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.2rem;
+        flex-shrink: 0;
+    }
+
+    .location__block-label {
+        font-size: 0.8rem;
+        font-weight: 600;
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        color: var(--color-olive);
+        margin-bottom: 4px;
+    }
+
+    .location__block-value {
+        font-size: 1rem;
+        color: var(--color-dark);
+        line-height: 1.6;
+    }
+
+    .location__block-value a {
+        color: var(--color-terracotta);
+        font-weight: 600;
+    }
+
+    .location__block-value a:hover {
+        text-decoration: underline;
+    }
+
+    .location__social {
+        display: flex;
+        gap: 12px;
+        margin-top: 8px;
+    }
+
+    .location__social-link {
+        width: 44px;
+        height: 44px;
+        background: var(--color-beige);
+        border-radius: var(--radius-md);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1.1rem;
+        transition: all var(--transition-base);
+    }
+
+    .location__social-link:hover {
+        background: var(--color-terracotta);
+        color: var(--color-white);
+        transform: translateY(-2px);
+    }
+
+    .location__map {
+        border-radius: var(--radius-lg);
+        overflow: hidden;
+        box-shadow: var(--shadow-lg);
+        height: 100%;
+        min-height: 420px;
+    }
+
+    .location__map iframe {
+        width: 100%;
+        height: 100%;
+        min-height: 420px;
+        border: 0;
+    }
+
+    .location__cta {
+        margin-top: 16px;
+    }
+
+    /* ============================================
+       FOOTER
+       ============================================ */
+    .footer {
+        background: var(--color-dark);
+        color: var(--color-cream);
+        padding: 64px 0 32px;
+    }
+
+    .footer__grid {
+        display: grid;
+        grid-template-columns: 2fr 1fr 1fr 1fr;
+        gap: 48px;
+        margin-bottom: 48px;
+    }
+
+    .footer__brand-desc {
+        font-size: 0.9rem;
+        color: rgba(245, 241, 232, 0.6);
+        line-height: 1.7;
+        margin-top: 16px;
+        max-width: 320px;
+    }
+
+    .footer__heading {
+        font-family: var(--font-heading);
+        font-size: 1rem;
+        font-weight: 700;
+        color: var(--color-cream);
+        margin-bottom: 20px;
+    }
+
+    .footer__link {
+        display: block;
+        padding: 6px 0;
+        font-size: 0.88rem;
+        color: rgba(245, 241, 232, 0.6);
+        transition: color var(--transition-fast);
+    }
+
+    .footer__link:hover {
+        color: var(--color-terracotta);
+    }
+
+    .footer__bottom {
+        border-top: 1px solid rgba(245, 241, 232, 0.1);
+        padding-top: 32px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 16px;
+    }
+
+    .footer__copyright {
+        font-size: 0.82rem;
+        color: rgba(245, 241, 232, 0.4);
+    }
+
+    .footer__badges {
+        display: flex;
+        gap: 16px;
+        align-items: center;
+    }
+
+    .footer__badge {
+        padding: 6px 16px;
+        background: rgba(245, 241, 232, 0.08);
+        border-radius: 50px;
+        font-size: 0.75rem;
+        color: rgba(245, 241, 232, 0.6);
+        font-weight: 600;
+    }
+
+    /* ============================================
+       FLOATING WHATSAPP
+       ============================================ */
+    .wa-float {
+        position: fixed;
+        bottom: 28px;
+        right: 28px;
+        z-index: 998;
+        width: 60px;
+        height: 60px;
+        background: #25D366;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 4px 20px rgba(37, 211, 102, 0.4);
+        transition: all var(--transition-base);
+        animation: waFloat 2s ease-in-out infinite;
+    }
+
+    .wa-float:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 28px rgba(37, 211, 102, 0.5);
+    }
+
+    .wa-float svg {
+        width: 30px;
+        height: 30px;
+        fill: white;
+    }
+
+    .wa-float__tooltip {
+        position: absolute;
+        right: 72px;
+        top: 50%;
+        transform: translateY(-50%);
+        background: var(--color-white);
+        color: var(--color-dark);
+        padding: 10px 18px;
+        border-radius: var(--radius-md);
+        font-size: 0.82rem;
+        font-weight: 600;
+        white-space: nowrap;
+        box-shadow: var(--shadow-md);
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity var(--transition-fast);
+    }
+
+    .wa-float:hover .wa-float__tooltip {
+        opacity: 1;
+    }
+
+    @keyframes waFloat {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-6px); }
+    }
+
+    /* ============================================
+       SCROLL ANIMATIONS
+       ============================================ */
+    .reveal {
+        opacity: 0;
+        transform: translateY(32px);
+        transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+
+    .reveal.visible {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    .reveal-delay-1 { transition-delay: 0.1s; }
+    .reveal-delay-2 { transition-delay: 0.2s; }
+    .reveal-delay-3 { transition-delay: 0.3s; }
+    .reveal-delay-4 { transition-delay: 0.4s; }
+    .reveal-delay-5 { transition-delay: 0.5s; }
+
+    /* ============================================
+       RESPONSIVE BREAKPOINTS
+       ============================================ */
+
+    /* Tablet: 768px */
+    @media (max-width: 1024px) {
+        :root {
+            --section-padding: 80px;
+        }
+
+        .facilities__grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .events__grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        .gallery__grid {
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 200px);
+        }
+
+        .gallery__item:nth-child(1) {
+            grid-column: span 1;
+            grid-row: span 1;
+        }
+
+        .gallery__item:nth-child(5) {
+            grid-column: span 1;
+        }
+
+        .footer__grid {
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+        }
+    }
+
+    /* Mobile: 768px */
+    @media (max-width: 768px) {
+        :root {
+            --section-padding: 64px;
+            --nav-height: 64px;
+        }
+
+        .hamburger {
+            display: flex;
+        }
+
+        .nav__links {
+            display: none;
+        }
+
+        .mobile-menu {
+            display: block;
+        }
+
+        .mobile-menu__overlay {
+            display: block;
+        }
+
+        .about__grid {
+            grid-template-columns: 1fr;
+            gap: 40px;
+        }
+
+        .about__image img {
+            height: 350px;
+        }
+
+        .facilities__grid {
+            grid-template-columns: 1fr;
+        }
+
+        .menu__grid {
+            grid-template-columns: 1fr;
+        }
+
+        .events__grid {
+            grid-template-columns: 1fr;
+        }
+
+        .gallery__grid {
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(3, 180px);
+        }
+
+        .gallery__item:nth-child(1) {
+            grid-column: span 2;
+            grid-row: span 1;
+        }
+
+        .location__grid {
+            grid-template-columns: 1fr;
+        }
+
+        .location__map {
+            min-height: 300px;
+        }
+
+        .location__map iframe {
+            min-height: 300px;
+        }
+
+        .footer__grid {
+            grid-template-columns: 1fr;
+            gap: 24px;
+        }
+
+        .footer__bottom {
+            flex-direction: column;
+            text-align: center;
+        }
+
+        .hero__ctas {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .hero__ctas .btn {
+            width: 100%;
+            max-width: 300px;
+        }
+
+        .wa-float {
+            bottom: 20px;
+            right: 20px;
+            width: 52px;
+            height: 52px;
+        }
+
+        .wa-float__tooltip {
+            display: none;
+        }
+    }
+
+    /* Small Mobile: 320px */
+    @media (max-width: 380px) {
+        .container {
+            padding: 0 16px;
+        }
+
+        .hero__title {
+            font-size: 1.8rem;
+        }
+
+        .section-title {
+            font-size: 1.7rem;
+        }
+
+        .menu__tabs {
+            gap: 6px;
+        }
+
+        .menu__tab {
+            padding: 10px 18px;
+            font-size: 0.82rem;
+        }
+
+        .facility-card {
+            padding: 28px 20px;
+        }
+
+        .event-card {
+            padding: 24px 20px;
+        }
+
+        .gallery__grid {
+            grid-template-rows: repeat(3, 150px);
+        }
+    }
+
+    /* Large Desktop: 1440px */
+    @media (min-width: 1440px) {
+        .container {
+            max-width: 1320px;
+        }
+    }
+</style>
+</head>
+<body>
+    <!-- ============================================
+     NAVIGATION
+     ============================================ -->
+<nav class="nav" id="mainNav" role="navigation" aria-label="Navigasi utama">
+    <div class="container nav__inner">
+        <a href="#hero" class="nav__logo" aria-label="HAFA Coffee & House - Beranda">
+            <div class="nav__logo-icon">H</div>
+            <span class="nav__logo-text">HAFA</span>
+        </a>
+
+        <div class="nav__links" role="menubar">
+            <a href="#about" class="nav__link" role="menuitem" data-section="about">Tentang</a>
+            <a href="#facilities" class="nav__link" role="menuitem" data-section="facilities">Fasilitas</a>
+            <a href="#menu" class="nav__link" role="menuitem" data-section="menu">Menu</a>
+            <a href="#events" class="nav__link" role="menuitem" data-section="events">Event</a>
+            <a href="#gallery" class="nav__link" role="menuitem" data-section="gallery">Galeri</a>
+            <a href="#location" class="nav__link" role="menuitem" data-section="location">Lokasi</a>
+            <a href="https://wa.me/6285211614462?text=Halo%20HAFA%2C%20saya%20ingin%20reservasi%20meja." target="_blank" rel="noopener noreferrer" class="btn btn-primary nav__cta">Reservasi</a>
+        </div>
+
+        <button class="hamburger" id="hamburgerBtn" aria-label="Buka menu navigasi" aria-expanded="false">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </div>
+</nav>
+
+<!-- Mobile Menu Overlay -->
+<div class="mobile-menu__overlay" id="mobileOverlay" aria-hidden="true"></div>
+
+<!-- Mobile Menu -->
+<div class="mobile-menu" id="mobileMenu" role="dialog" aria-label="Menu navigasi mobile" aria-hidden="true">
+    <a href="#about" class="mobile-menu__link" data-section="about">Tentang</a>
+    <a href="#facilities" class="mobile-menu__link" data-section="facilities">Fasilitas</a>
+    <a href="#menu" class="mobile-menu__link" data-section="menu">Menu</a>
+    <a href="#events" class="mobile-menu__link" data-section="events">Event</a>
+    <a href="#gallery" class="mobile-menu__link" data-section="gallery">Galeri</a>
+    <a href="#location" class="mobile-menu__link" data-section="location">Lokasi</a>
+    <a href="https://wa.me/6285211614462?text=Halo%20HAFA%2C%20saya%20ingin%20reservasi%20meja." target="_blank" rel="noopener noreferrer" class="btn btn-primary mobile-menu__cta">
+        📱 Reservasi Sekarang
+    </a>
+</div>
+
+<!-- ============================================
+     HERO SECTION
+     ============================================ -->
+<section class="hero" id="hero" aria-label="Hero utama">
+    <div class="hero__bg">
+        <img src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/1e92f3f47-932e-4cc1-8d5b-b0b33e38ee08.png" alt="Interior cafe HAFA Coffee & House dengan desain vintage-modern dan fotobooth" loading="eager">
+    </div>
+    <div class="hero__content">
+        <div class="hero__badge">
+            ☕ Cafe Premium Bogor
+        </div>
+        <h1 class="hero__title">
+            Titik temu antara<br>
+            <em>Aku, Kamu, Dia</em> dan <em>Mereka</em>
+        </h1>
+        <p class="hero__subtitle">
+            Some places serve coffee.<br>
+            <strong>#HAFA creates a feeling</strong> ☕️
+        </p>
+        <div class="hero__ctas">
+            <a href="https://wa.me/6285211614462?text=Halo%20HAFA%2C%20saya%20ingin%20reservasi%20meja." target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                Reservasi Sekarang
+            </a>
+            <a href="#menu" class="btn btn-ghost">
+                 Lihat Menu
+            </a>
+        </div>
+    </div>
+    <div class="hero__scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <div class="hero__scroll-line"></div>
+    </div>
+</section>
+
+<!-- ============================================
+     ABOUT SECTION
+     ============================================ -->
+<section class="about" id="about" aria-label="Cerita tentang HAFA">
+    <div class="container">
+        <div class="about__grid">
+            <div class="about__text reveal">
+                <span class="section-label">Cerita Kami</span>
+                <h2 class="section-title">Cerita di Balik HAFA</h2>
+                <p>
+                    Nama "Hafa" berasal dari inisial pendiri <strong>Hamidah &amp; Farhad</strong>, sekaligus bermakna <strong>"hujan yang lembut"</strong> dalam bahasa Arab. Sebuah filosofi yang menyatu dengan identitas Bogor sebagai <em>Kota Hujan</em>.
+                </p>
+                <p>
+                    Tempat di mana setiap cangkir menjadi awal percakapan. Di sini, kami tidak sekadar menyajikan kopi — kami menciptakan ruang untuk berbagi cerita, menciptakan kenangan, dan menemukan ketenangan di tengah hiruk-pikuk kota.
+                </p>
+                <p>
+                    Dengan desain interior yang memadukan nuansa vintage dan modern, HAFA Coffee &amp; House menjadi rumah kedua bagi siapa saja yang mencari kehangatan dalam setiap teguk.
+                </p>
+                <a href="https://wa.me/6285211614462?text=Halo%20HAFA%2C%20saya%20ingin%20tahu%20lebih%20lanjut." target="_blank" rel="noopener noreferrer" class="btn btn-secondary" style="margin-top: 8px;">
+                     Cerita Lebih Lanjut
+                </a>
+            </div>
+            <div class="about__image reveal reveal-delay-2">
+                <img src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/1f03d3c54-6146-41a2-a6d6-000f4891cb09.png" alt="Interior hangat HAFA Coffee & House dengan peralatan kopi premium dan seating area nyaman" loading="lazy">
+                <div class="about__image-badge">
+                    <div class="about__image-badge-icon">️</div>
+                    <div>
+                        <div class="about__image-badge-text">Kota Hujan, Bogor</div>
+                        <div class="about__image-badge-sub">Sejak 2023</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     FACILITIES SECTION
+     ============================================ -->
+<section class="facilities" id="facilities" aria-label="Fasilitas dan pengalaman">
+    <div class="container">
+        <div class="facilities__header reveal">
+            <span class="section-label">Fasilitas</span>
+            <h2 class="section-title">Fasilitas & Pengalaman</h2>
+            <p class="section-subtitle">Ruang yang dirancang untuk kenyamanan semua orang — dari meeting bisnis hingga hangout santai.</p>
+        </div>
+
+        <div class="facilities__grid">
+            <div class="facility-card reveal reveal-delay-1">
+                <div class="facility-card__icon">🎤</div>
+                <h3 class="facility-card__title">VIP Room</h3>
+                <p class="facility-card__desc">Karaoke + Smart TV untuk acara spesial Anda. Reservasi khusus untuk grup atau celebration.</p>
+                <span class="facility-card__tag">Min. Rp 600.000 / 3 jam</span>
+            </div>
+
+            <div class="facility-card reveal reveal-delay-2">
+                <div class="facility-card__icon">🌿</div>
+                <h3 class="facility-card__title">Outdoor Area & Breakfast Club</h3>
+                <p class="facility-card__desc">Nikmati udara segar Bogor di area outdoor kami. Breakfast Club setiap Sabtu & Minggu pagi.</p>
+                <span class="facility-card__tag">Sabtu-Minggu</span>
+            </div>
+
+            <div class="facility-card reveal reveal-delay-3">
+                <div class="facility-card__icon">💼</div>
+                <h3 class="facility-card__title">Workspace Friendly</h3>
+                <p class="facility-card__desc">Colokan di setiap meja & WiFi stabil. Tempat ideal untuk kerja remote atau meeting.</p>
+                <span class="facility-card__tag">WiFi & Colokan</span>
+            </div>
+
+            <div class="facility-card reveal reveal-delay-4">
+                <div class="facility-card__icon">🧸</div>
+                <h3 class="facility-card__title">Kid-Friendly Area</h3>
+                <p class="facility-card__desc">Area bermain aman untuk si kecil sehingga orang tua bisa menikmati waktu ngopi dengan tenang.</p>
+                <span class="facility-card__tag">Aman & Nyaman</span>
+            </div>
+
+            <div class="facility-card reveal reveal-delay-5">
+                <div class="facility-card__icon">🕌</div>
+                <h3 class="facility-card__title">HALAL MUI CERTIFIED</h3>
+                <p class="facility-card__desc">Seluruh menu kami tersertifikasi HALAL oleh MUI. Makan dengan tenang, hati juga tenang.</p>
+                <span class="facility-card__tag">Sertifikasi Resmi</span>
+            </div>
+
+            <div class="facility-card reveal reveal-delay-5">
+                <div class="facility-card__icon">🤝</div>
+                <h3 class="facility-card__title">Kolaborasi & Booth Brand Lokal</h3>
+                <p class="facility-card__desc">Ruang untuk brand lokal berkembang. Kami mendukung ekosistem bisnis kreatif Bogor.</p>
+                <span class="facility-card__tag">Support Lokal</span>
+            </div>
+        </div>
+
+        <div class="facilities__cta reveal">
+            <a href="https://wa.me/6285211614462?text=Halo%20HAFA%2C%20saya%20ingin%20reservasi%20VIP%20Room." target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                🎤 Lihat Paket VIP Room
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     MENU SECTION
+     ============================================ -->
+<section class="menu" id="menu" aria-label="Menu HAFA Coffee & House">
+    <div class="container">
+        <div class="menu__header reveal">
+            <span class="section-label">Menu Kami</span>
+            <h2 class="section-title">Menu Highlights</h2>
+            <p class="section-subtitle">Dari signature drinks hingga comfort food — setiap hidangan dibuat dengan cinta dan bahan berkualitas.</p>
+        </div>
+
+        <div class="menu__tabs reveal" role="tablist" aria-label="Filter menu">
+            <button class="menu__tab active" role="tab" aria-selected="true" aria-controls="panel-drinks" id="tab-drinks" data-tab="drinks">
+                ☕ Signature Drinks
+            </button>
+            <button class="menu__tab" role="tab" aria-selected="false" aria-controls="panel-food" id="tab-food" data-tab="food">
+                 Makanan Utama
+            </button>
+            <button class="menu__tab" role="tab" aria-selected="false" aria-controls="panel-others" id="tab-others" data-tab="others">
+                🍰 Dessert & Lainnya
+            </button>
+        </div>
+
+        <!-- Drinks Panel -->
+        <div class="menu__panel active" id="panel-drinks" role="tabpanel" aria-labelledby="tab-drinks">
+            <div class="menu__grid">
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/12b2403b7-b8c6-4a91-bc13-cc2365a7dafd.png" alt="Kopi susu gula aren Aku - signature drink HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Aku</h3>
+                        <p class="menu-item__desc">Kopi susu gula aren — signature drink yang jadi favorit. Perpaduan espresso, susu segar, dan gula aren asli.</p>
+                        <span class="menu-item__price">~ Rp 35.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/12b2403b7-b8c6-4a91-bc13-cc2365a7dafd.png" alt="Kamu - signature drink HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Kamu</h3>
+                        <p class="menu-item__desc">Varian spesial dari keluarga HAFA. Rasanya unik, cocok untuk yang suka eksplorasi rasa baru.</p>
+                        <span class="menu-item__price">~ Rp 35.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/12b2403b7-b8c6-4a91-bc13-cc2365a7dafd.png" alt="Dia - butterscotch drink HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Dia</h3>
+                        <p class="menu-item__desc">Butterscotch drink yang creamy dan manis. Cocok untuk teman sore yang hangat dan cozy.</p>
+                        <span class="menu-item__price">~ Rp 35.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/12b2403b7-b8c6-4a91-bc13-cc2365a7dafd.png" alt="Mereka - blend eksklusif HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Mereka</h3>
+                        <p class="menu-item__desc">Blend eksklusif dari biji kopi pilihan. Untuk pencinta kopi sejati yang mengapresiasi karakter rasa.</p>
+                        <span class="menu-item__price">~ Rp 35.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Food Panel -->
+        <div class="menu__panel" id="panel-food" role="tabpanel" aria-labelledby="tab-food">
+            <div class="menu__grid">
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/17be3c5dc-d195-4d16-a0ee-d7e88702b88b.png" alt="Nasi Goreng Kampung HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Nasi Goreng Kampung</h3>
+                        <p class="menu-item__desc">Nasi goreng dengan bumbu kampung autentik, telur, dan sayuran segar.</p>
+                        <span class="menu-item__price">Rp 45.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/17be3c5dc-d195-4d16-a0ee-d7e88702b88b.png" alt="Nasi Goreng Seafood HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Nasi Goreng Seafood</h3>
+                        <p class="menu-item__desc">Nasi goreng spesial dengan udang, cumi, dan bumbu seafood yang kaya rasa.</p>
+                        <span class="menu-item__price">Rp 50.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/17be3c5dc-d195-4d16-a0ee-d7e88702b88b.png" alt="Nasi Goreng Jawa / Basmati HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Nasi Goreng Jawa / Basmati</h3>
+                        <p class="menu-item__desc">Pilihan nasi goreng Jawa klasik atau versi basmati yang lebih wangi dan lembut.</p>
+                        <span class="menu-item__price">Rp 55.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/17be3c5dc-d195-4d16-a0ee-d7e88702b88b.png" alt="Katsu Donburi HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Katsu Donburi</h3>
+                        <p class="menu-item__desc">Ayam katsu crispy dengan nasi, telur, dan saus donburi khas Jepang.</p>
+                        <span class="menu-item__price">Rp 55.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/17be3c5dc-d195-4d16-a0ee-d7e88702b88b.png" alt="Chicken Over Rice khas Mesir HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Chicken Over Rice (Khas Mesir)</h3>
+                        <p class="menu-item__desc">Ayam panggang dengan bumbu khas Mesir, disajikan dengan nasi dan saus spesial.</p>
+                        <span class="menu-item__price">Rp 55.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/17be3c5dc-d195-4d16-a0ee-d7e88702b88b.png" alt="Meat Me Pizza HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Meat Me Pizza</h3>
+                        <p class="menu-item__desc">Pizza dengan topping daging premium dan keju mozzarella yang meleleh sempurna.</p>
+                        <span class="menu-item__price">Rp 80.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/17be3c5dc-d195-4d16-a0ee-d7e88702b88b.png" alt="Crispy Tofu HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Crispy Tofu</h3>
+                        <p class="menu-item__desc">Tahu crispy dengan saus spesial. Camilan ringan yang bikin nagih.</p>
+                        <span class="menu-item__price">Rp 28.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/17be3c5dc-d195-4d16-a0ee-d7e88702b88b.png" alt="Kids Meal HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Kids Meal</h3>
+                        <p class="menu-item__desc">Menu spesial untuk anak-anak. Nutrisi seimbang dalam porsi yang pas.</p>
+                        <span class="menu-item__price">Rp 35.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Others Panel -->
+        <div class="menu__panel" id="panel-others" role="tabpanel" aria-labelledby="tab-others">
+            <div class="menu__grid">
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/1a8cabf84-e50e-40fa-a5dc-5a96959b7c6b.png" alt="Ginger Tea HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Ginger Tea</h3>
+                        <p class="menu-item__desc">Teh jahang hangat yang menenangkan. Cocok untuk cuaca hujan Bogor.</p>
+                        <span class="menu-item__price">~ Rp 30.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/12b2403b7-b8c6-4a91-bc13-cc2365a7dafd.png" alt="Kiss Sparkling Tea HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Kiss Sparkling Tea</h3>
+                        <p class="menu-item__desc">Teh sparkling yang menyegarkan. Sensasi gelembung halus dengan rasa teh premium.</p>
+                        <span class="menu-item__price">~ Rp 28.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/17be3c5dc-d195-4d16-a0ee-d7e88702b88b.png" alt="Brownies HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Brownies</h3>
+                        <p class="menu-item__desc">Brownies cokelat premium dengan tekstur fudgy. Teman sempurna untuk kopi.</p>
+                        <span class="menu-item__price">~ Rp 30.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/1a8cabf84-e50e-40fa-a5dc-5a96959b7c6b.png" alt="Espresso HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Espresso / Cappuccino / Latte</h3>
+                        <p class="menu-item__desc">Kopi klasik dengan biji pilihan. Dari espresso bold hingga latte yang creamy.</p>
+                        <span class="menu-item__price">~ Rp 28.000 - 35.000</span>
+                    </div>
+                </div>
+                <div class="menu-item">
+                    <img class="menu-item__img" src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/12b2403b7-b8c6-4a91-bc13-cc2365a7dafd.png" alt="Cold Brew HAFA" loading="lazy">
+                    <div class="menu-item__info">
+                        <h3 class="menu-item__name">Cold Brew</h3>
+                        <p class="menu-item__desc">Kopi seduh dingin yang smooth dan rendah asam. Disiapkan selama 18 jam.</p>
+                        <span class="menu-item__price">~ Rp 32.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="menu__disclaimer reveal">
+            ⚠️ Harga dapat berubah sewaktu-waktu. Silakan konfirmasi ke outlet untuk harga terkini.
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     EVENTS SECTION
+     ============================================ -->
+<section class="events" id="events" aria-label="Event dan komunitas HAFA">
+    <div class="container">
+        <div class="events__header reveal">
+            <span class="section-label">Komunitas</span>
+            <h2 class="section-title">Ruang Bagi Cerita & Kreasi</h2>
+            <p class="section-subtitle">HAFA bukan sekadar cafe — ini adalah ruang komunitas tempat ide, kreativitas, dan persahabatan bertemu.</p>
+        </div>
+
+        <div class="events__grid">
+            <div class="event-card reveal reveal-delay-1">
+                <div class="event-card__icon">🎤</div>
+                <h3 class="event-card__title">Open Mic Night</h3>
+                <p class="event-card__desc">Kolaborasi dengan @standupindo_bgr — malam stand-up comedy dan open mic yang penuh tawa dan kreativitas.</p>
+                <span class="event-card__tag">Kolaborasi @standupindo_bgr</span>
+            </div>
+
+            <div class="event-card reveal reveal-delay-2">
+                <div class="event-card__icon">🍳</div>
+                <h3 class="event-card__title">Breakfast Club</h3>
+                <p class="event-card__desc">Setiap Sabtu & Minggu pagi, nikmati sarapan spesial di area outdoor kami. Menu breakfast yang variatif dan mengenyangkan.</p>
+                <span class="event-card__tag">Setiap Sabtu & Minggu</span>
+            </div>
+
+            <div class="event-card reveal reveal-delay-3">
+                <div class="event-card__icon">☕</div>
+                <h3 class="event-card__title">Peserta Jakarta Coffee Week</h3>
+                <p class="event-card__desc">HAFA Coffee & House bangga menjadi bagian dari Jakarta Coffee Week, menghubungkan pecinta kopi dari seluruh Indonesia.</p>
+                <span class="event-card__tag">National Event</span>
+            </div>
+
+            <div class="event-card reveal reveal-delay-4">
+                <div class="event-card__icon">🌱</div>
+                <h3 class="event-card__title">Area Dukungan Brand Lokal</h3>
+                <p class="event-card__desc">Kami menyediakan ruang untuk brand lokal Berkarya. Bersama kita membangun ekosistem bisnis kreatif Bogor.</p>
+                <span class="event-card__tag">Support Local</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     GALLERY SECTION
+     ============================================ -->
+<section class="gallery" id="gallery" aria-label="Galeri suasana HAFA">
+    <div class="container">
+        <div class="gallery__header reveal">
+            <span class="section-label">Galeri</span>
+            <h2 class="section-title">Suasana HAFA</h2>
+            <p class="section-subtitle">Intip suasana hangat dan nyaman di setiap sudut HAFA Coffee & House.</p>
+        </div>
+
+        <div class="gallery__grid reveal">
+            <div class="gallery__item">
+                <img src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/1e92f3f47-932e-4cc1-8d5b-b0b33e38ee08.png" alt="Interior vintage-modern HAFA Coffee & House dengan fotobooth dan seating area" loading="lazy" width="800" height="480">
+            </div>
+            <div class="gallery__item">
+                <img src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/1f03d3c54-6146-41a2-a6d6-000f4891cb09.png" alt="Coffee brewing station HAFA dengan peralatan espresso premium" loading="lazy" width="400" height="240">
+            </div>
+            <div class="gallery__item">
+                <img src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/1a8cabf84-e50e-40fa-a5dc-5a96959b7c6b.png" alt="Latte art swan oleh barista HAFA" loading="lazy" width="400" height="240">
+            </div>
+            <div class="gallery__item">
+                <img src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/17af5fb5f-1cd5-4703-95ea-9739fe465a65.png" alt="Outdoor breakfast club HAFA dengan pemandangan hijau" loading="lazy" width="400" height="240">
+            </div>
+            <div class="gallery__item">
+                <img src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/1c70cc07f-f301-485f-8397-89625ffe0fd4.png" alt="Area bermain anak di HAFA Coffee & House" loading="lazy" width="800" height="240">
+            </div>
+            <div class="gallery__item">
+                <img src="https://image.qwenlm.ai/public_source/d97129ea-b5d8-4da0-a922-8b6f91d871d9/19b84e388-a7c5-4558-b32e-68e43b284b1d.png" alt="VIP room karaoke HAFA dengan TV dan sound system" loading="lazy" width="400" height="240">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     LOCATION SECTION
+     ============================================ -->
+<section class="location" id="location" aria-label="Lokasi dan kontak HAFA">
+    <div class="container">
+        <div class="reveal" style="text-align:center; margin-bottom: 48px;">
+            <span class="section-label">Kunjungi Kami</span>
+            <h2 class="section-title">Lokasi & Kontak</h2>
+            <p class="section-subtitle" style="margin: 0 auto;">Kami menunggu kedatangan Anda. Temukan kami di jantung Kota Hujan.</p>
+        </div>
+
+        <div class="location__grid">
+            <div class="location__info reveal">
+                <div class="location__block">
+                    <div class="location__block-icon">📍</div>
+                    <div>
+                        <div class="location__block-label">Alamat</div>
+                        <div class="location__block-value">
+                            Jl. Puter No. 2, Tanah Sareal,<br>
+                            Kec. Tanah Sareal, Kota Bogor,<br>
+                            Jawa Barat 16161
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location__block">
+                    <div class="location__block-icon">🕐</div>
+                    <div>
+                        <div class="location__block-label">Jam Operasional</div>
+                        <div class="location__block-value">
+                            <strong>Buka Setiap Hari</strong><br>
+                            07.00 – 22.00 WIB
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location__block">
+                    <div class="location__block-icon">📱</div>
+                    <div>
+                        <div class="location__block-label">Reservasi</div>
+                        <div class="location__block-value">
+                            <a href="tel:+6285211614462">+62 852 1161 4462</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location__block">
+                    <div class="location__block-icon">📞</div>
+                    <div>
+                        <div class="location__block-label">Umum</div>
+                        <div class="location__block-value">
+                            <a href="tel:+6281292951052">+62 812 9295 1052</a><br>
+                            <a href="tel:+6282120090052">+62 821 2009 0052</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location__block">
+                    <div class="location__block-icon">🌐</div>
+                    <div>
+                        <div class="location__block-label">Social Media</div>
+                        <div class="location__social">
+                            <a href="https://www.instagram.com/hafacoffeehouse" target="_blank" rel="noopener noreferrer" class="location__social-link" aria-label="Instagram HAFA Coffee & House">
+                                📸
+                            </a>
+                            <a href="https://www.facebook.com/HAFA Coffee & House Bogor" target="_blank" rel="noopener noreferrer" class="location__social-link" aria-label="Facebook HAFA Coffee & House Bogor">
+                                👥
+                            </a>
+                            <a href="https://wa.me/6285211614462" target="_blank" rel="noopener noreferrer" class="location__social-link" aria-label="WhatsApp HAFA Coffee & House">
+                                💬
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="location__cta">
+                    <a href="https://wa.me/6285211614462?text=Halo%20HAFA%2C%20saya%20ingin%20reservasi%20meja." target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                         Pesan Meja via WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="location__map reveal reveal-delay-2">
+                <!-- 
+                    INSTRUCTIONS FOR GOOGLE MAPS EMBED:
+                    1. Go to https://www.google.com/maps
+                    2. Search for: "Jl. Puter No. 2, Tanah Sareal, Bogor"
+                    3. Click "Share" → "Embed a map"
+                    4. Copy the iframe src URL and replace below
+                    5. Current embed uses approximate coordinates for HAFA Coffee & House area
+                -->
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.1!2d106.78!3d-6.58!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68c5a0f0b0b0b0%3A0x0!2sJl.%20Puter%20No.%202%2C%20Tanah%20Sareal%2C%20Kota%20Bogor%2C%20Jawa%20Barat%2016161!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid"
+                    allowfullscreen=""
+                    loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    title="Peta lokasi HAFA Coffee & House di Jl. Puter No. 2, Bogor">
+                </iframe>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- ============================================
+     FOOTER
+     ============================================ -->
+<footer class="footer" role="contentinfo">
+    <div class="container">
+        <div class="footer__grid">
+            <div>
+                <a href="#hero" class="nav__logo" aria-label="HAFA Coffee & House - Beranda" style="margin-bottom: 0;">
+                    <div class="nav__logo-icon">H</div>
+                    <span class="nav__logo-text" style="color: var(--color-cream);">HAFA</span>
+                </a>
+                <p class="footer__brand-desc">
+                    Titik temu antara Aku, Kamu, Dia dan Mereka. Some places serve coffee. #HAFA creates a feeling ☕️
+                </p>
+                <div class="location__social" style="margin-top: 20px;">
+                    <a href="https://www.instagram.com/hafacoffeehouse" target="_blank" rel="noopener noreferrer" class="location__social-link" aria-label="Instagram HAFA">📸</a>
+                    <a href="https://www.facebook.com/HAFA Coffee & House Bogor" target="_blank" rel="noopener noreferrer" class="location__social-link" aria-label="Facebook HAFA">👥</a>
+                    <a href="https://wa.me/6285211614462" target="_blank" rel="noopener noreferrer" class="location__social-link" aria-label="WhatsApp HAFA">💬</a>
+                </div>
+            </div>
+
+            <div>
+                <h3 class="footer__heading">Navigasi</h3>
+                <a href="#about" class="footer__link">Tentang</a>
+                <a href="#facilities" class="footer__link">Fasilitas</a>
+                <a href="#menu" class="footer__link">Menu</a>
+                <a href="#events" class="footer__link">Event</a>
+                <a href="#gallery" class="footer__link">Galeri</a>
+                <a href="#location" class="footer__link">Lokasi</a>
+            </div>
+
+            <div>
+                <h3 class="footer__heading">Layanan</h3>
+                <a href="https://wa.me/6285211614462?text=Halo%20HAFA%2C%20saya%20ingin%20reservasi%20meja." target="_blank" rel="noopener noreferrer" class="footer__link">Reservasi Meja</a>
+                <a href="https://wa.me/6285211614462?text=Halo%20HAFA%2C%20saya%20ingin%20reservasi%20VIP%20Room." target="_blank" rel="noopener noreferrer" class="footer__link">VIP Room</a>
+                <a href="https://wa.me/6285211614462?text=Halo%20HAFA%2C%20saya%20ingin%20tanya%20tentang%20kolaborasi." target="_blank" rel="noopener noreferrer" class="footer__link">Kolaborasi</a>
+                <a href="#events" class="footer__link">Breakfast Club</a>
+            </div>
+
+            <div>
+                <h3 class="footer__heading">Kontak</h3>
+                <a href="tel:+6285211614462" class="footer__link">+62 852 1161 4462</a>
+                <a href="tel:+6281292951052" class="footer__link">+62 812 9295 1052</a>
+                <a href="tel:+6282120090052" class="footer__link">+62 821 2009 0052</a>
+                <p class="footer__link" style="margin-top: 12px; color: rgba(245,241,232,0.4); font-size: 0.82rem;">
+                    Jl. Puter No. 2, Tanah Sareal,<br>
+                    Kota Bogor, Jawa Barat 16161
+                </p>
+            </div>
+        </div>
+
+        <div class="footer__bottom">
+            <p class="footer__copyright">
+                © 2024 HAFA Coffee & House. All rights reserved.
+            </p>
+            <div class="footer__badges">
+                <span class="footer__badge">🕌 HALAL MUI Certified</span>
+                <a href="#" class="footer__link" style="padding: 0;">Privacy Policy</a>
+                <span style="color: rgba(245,241,232,0.2);">|</span>
+                <a href="#" class="footer__link" style="padding: 0;">Terms</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- ============================================
+     FLOATING WHATSAPP BUTTON
+     ============================================ -->
+<a href="https://wa.me/6285211614462?text=Halo%20HAFA%2C%20saya%20ingin%20reservasi%20meja%2FVIP%20room." 
+   target="_blank" 
+   rel="noopener noreferrer" 
+   class="wa-float" 
+   aria-label="Hubungi kami via WhatsApp untuk reservasi">
+    <span class="wa-float__tooltip">Chat untuk Reservasi 💬</span>
+    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+</a>
+
+<!-- ============================================
+     JAVASCRIPT
+     ============================================ -->
+<script>
+    (function() {
+        'use strict';
+
+        // ---- Navigation Scroll Effect ----
+        const nav = document.getElementById('mainNav');
+        const navLinks = document.querySelectorAll('.nav__link');
+        const sections = document.querySelectorAll('section[id]');
+
+        function handleNavScroll() {
+            if (window.scrollY > 80) {
+                nav.classList.add('scrolled');
+            } else {
+                nav.classList.remove('scrolled');
+            }
+        }
+
+        // ---- Active Section Highlighting ----
+        function updateActiveNav() {
+            const scrollPos = window.scrollY + 120;
+
+            sections.forEach(function(section) {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.offsetHeight;
+                const sectionId = section.getAttribute('id');
+
+                if (scrollPos >= sectionTop && scrollPos < sectionTop + sectionHeight) {
+                    navLinks.forEach(function(link) {
+                        link.classList.remove('active');
+                        if (link.getAttribute('data-section') === sectionId) {
+                            link.classList.add('active');
+                        }
+                    });
+                }
+            });
+        }
+
+        window.addEventListener('scroll', function() {
+            handleNavScroll();
+            updateActiveNav();
+        }, { passive: true });
+
+        // ---- Mobile Menu ----
+        const hamburgerBtn = document.getElementById('hamburgerBtn');
+        const mobileMenu = document.getElementById('mobileMenu');
+        const mobileOverlay = document.getElementById('mobileOverlay');
+        const mobileLinks = mobileMenu.querySelectorAll('.mobile-menu__link');
+
+        function toggleMobileMenu() {
+            const isOpen = mobileMenu.classList.contains('open');
+            if (isOpen) {
+                mobileMenu.classList.remove('open');
+                mobileOverlay.classList.remove('open');
+                hamburgerBtn.classList.remove('open');
+                hamburgerBtn.setAttribute('aria-expanded', 'false');
+                mobileMenu.setAttribute('aria-hidden', 'true');
+                mobileOverlay.setAttribute('aria-hidden', 'true');
+                document.body.style.overflow = '';
+            } else {
+                mobileMenu.classList.add('open');
+                mobileOverlay.classList.add('open');
+                hamburgerBtn.classList.add('open');
+                hamburgerBtn.setAttribute('aria-expanded', 'true');
+                mobileMenu.setAttribute('aria-hidden', 'false');
+                mobileOverlay.setAttribute('aria-hidden', 'false');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        hamburgerBtn.addEventListener('click', toggleMobileMenu);
+        mobileOverlay.addEventListener('click', toggleMobileMenu);
+
+        mobileLinks.forEach(function(link) {
+            link.addEventListener('click', function() {
+                if (mobileMenu.classList.contains('open')) {
+                    toggleMobileMenu();
+                }
+            });
+        });
+
+        // ---- Menu Tabs ----
+        const menuTabs = document.querySelectorAll('.menu__tab');
+        const menuPanels = document.querySelectorAll('.menu__panel');
+
+        menuTabs.forEach(function(tab) {
+            tab.addEventListener('click', function() {
+                const targetPanel = this.getAttribute('data-tab');
+
+                // Update tabs
+                menuTabs.forEach(function(t) {
+                    t.classList.remove('active');
+                    t.setAttribute('aria-selected', 'false');
+                });
+                this.classList.add('active');
+                this.setAttribute('aria-selected', 'true');
+
+                // Update panels
+                menuPanels.forEach(function(panel) {
+                    panel.classList.remove('active');
+                });
+                document.getElementById('panel-' + targetPanel).classList.add('active');
+            });
+
+            // Keyboard support
+            tab.addEventListener('keydown', function(e) {
+                var allTabs = Array.from(menuTabs);
+                var currentIndex = allTabs.indexOf(this);
+                var newIndex;
+
+                if (e.key === 'ArrowRight' || e.key === 'ArrowDown') {
+                    newIndex = (currentIndex + 1) % allTabs.length;
+                    e.preventDefault();
+                } else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp') {
+                    newIndex = (currentIndex - 1 + allTabs.length) % allTabs.length;
+                    e.preventDefault();
+                } else if (e.key === 'Home') {
+                    newIndex = 0;
+                    e.preventDefault();
+                } else if (e.key === 'End') {
+                    newIndex = allTabs.length - 1;
+                    e.preventDefault();
+                } else {
+                    return;
+                }
+
+                allTabs[newIndex].focus();
+                allTabs[newIndex].click();
+            });
+        });
+
+        // ---- Scroll Reveal Animations ----
+        const revealElements = document.querySelectorAll('.reveal');
+
+        function checkReveal() {
+            var windowHeight = window.innerHeight;
+            var revealPoint = 80;
+
+            revealElements.forEach(function(el) {
+                var elementTop = el.getBoundingClientRect().top;
+                if (elementTop < windowHeight - revealPoint) {
+                    el.classList.add('visible');
+                }
+            });
+        }
+
+        window.addEventListener('scroll', checkReveal, { passive: true });
+        window.addEventListener('load', checkReveal);
+        checkReveal();
+
+        // ---- Smooth Scroll for anchor links ----
+        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+            anchor.addEventListener('click', function(e) {
+                var targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+
+                var targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    e.preventDefault();
+                    var navHeight = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--nav-height')) || 72;
+                    var targetPosition = targetElement.offsetTop - navHeight;
+
+                    window.scrollTo({
+                        top: targetPosition,
+                        behavior: 'smooth'
+                    });
+
+                    // Update URL hash without jumping
+                    if (history.pushState) {
+                        history.pushState(null, null, targetId);
+                    }
+                }
+            });
+        });
+
+        // ---- Initial state check ----
+        handleNavScroll();
+
+    })();
+</script>
+</body>
+</html>
